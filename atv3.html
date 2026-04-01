@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portal Alternativo da Computação</title>
+
+<style>
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background:#1e1e2f;
+    margin:0;
+    color:#eaeaea;
+}
+
+#pagina{
+    width:1000px;
+    margin:auto;
+    background:#2a2a40;
+    padding:20px;
+    border-radius:10px;
+}
+
+header{
+    background:#6a0dad;
+    color:white;
+    padding:15px;
+    margin-bottom:10px;
+    border-radius:8px;
+}
+
+header h1{
+    margin:0;
+}
+
+nav{
+    background:#3b3b5c;
+    padding:10px;
+    border-radius:8px;
+}
+
+nav ul{
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+nav li{
+    display:inline;
+    margin-right:15px;
+}
+
+nav a{
+    color:#dcd6ff;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#ffffff;
+    text-decoration:underline;
+}
+
+section{
+    margin-top:20px;
+    padding:10px;
+    border:1px solid #555;
+    border-radius:8px;
+    background:#24243a;
+}
+
+article{
+    margin-bottom:15px;
+}
+
+aside{
+    background:#333355;
+    padding:10px;
+    border-left:4px solid #9b59b6;
+}
+
+code{
+    background:#444;
+    padding:3px;
+}
+
+pre{
+    background:#111;
+    padding:10px;
+    color:#00ffcc;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:10px;
+}
+
+th, td{
+    border:1px solid #888;
+    padding:8px;
+    text-align:left;
+}
+
+th{
+    background:#6a0dad;
+    color:white;
+}
+
+form{
+    margin-top:10px;
+}
+
+label{
+    display:block;
+    margin-top:10px;
+}
+
+input, select, textarea{
+    width:100%;
+    padding:5px;
+    margin-top:5px;
+    background:#1e1e2f;
+    color:white;
+    border:1px solid #666;
+}
+
+input[type="submit"]{
+    width:auto;
+    background:#9b59b6;
+    border:none;
+    padding:8px 15px;
+    margin-top:10px;
+    cursor:pointer;
+}
+
+input[type="submit"]:hover{
+    background:#b57edc;
+}
+
+footer{
+    background:#111;
+    color:#ccc;
+    text-align:center;
+    padding:15px;
+    margin-top:20px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div id="pagina">
+
+<header>
+    <h1>Portal Alternativo da Computação</h1>
+    <p>Curiosidades, histórias e fatos interessantes da tecnologia</p>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#pioneiros">Pioneiros</a></li>
+        <li><a href="#bugs">Bugs</a></li>
+        <li><a href="#internet">Internet</a></li>
+        <li><a href="#linguagens">Linguagens</a></li>
+        <li><a href="#formulario">Contato</a></li>
+    </ul>
+</nav>
+
+<main>
+
+<section id="pioneiros">
+    <h2>Pioneiros da Computação</h2>
+
+    <article>
+        <h3>Ada Lovelace</h3>
+        <p>Considerada a primeira programadora da história.</p>
+    </article>
+
+    <article>
+        <h3>Alan Turing</h3>
+        <p>Criador do conceito de Máquina de Turing.</p>
+    </article>
+
+    <aside>
+        <p>Curiosidade: Turing foi essencial na Segunda Guerra Mundial.</p>
+    </aside>
+</section>
+
+<section id="bugs">
+    <h2>Histórias de Bugs</h2>
+
+    <article>
+        <h3>Primeiro Bug</h3>
+        <p>Uma mariposa encontrada em um computador em 1947.</p>
+    </article>
+
+    <article>
+        <h3>Vírus Creeper</h3>
+        <pre>I'M THE CREEPER : CATCH ME IF YOU CAN</pre>
+    </article>
+</section>
+
+<section id="internet">
+    <h2>Curiosidades da Internet</h2>
+
+    <article>
+        <h3>Primeiro Site</h3>
+        <p>Criado em 1991.</p>
+    </article>
+
+    <article>
+        <h3>ARPANET</h3>
+        <ul>
+            <li>Primeira mensagem: LO</li>
+            <li>Sistema caiu antes de LOGIN</li>
+        </ul>
+    </article>
+</section>
+
+<section id="linguagens">
+    <h2>Linguagens de Programação</h2>
+
+    <table>
+        <tr>
+            <th>Linguagem</th>
+            <th>Ano</th>
+        </tr>
+        <tr>
+            <td>COBOL</td>
+            <td>1959</td>
+        </tr>
+        <tr>
+            <td>C</td>
+            <td>1972</td>
+        </tr>
+        <tr>
+            <td>Python</td>
+            <td>1991</td>
+        </tr>
+    </table>
+</section>
+
+<section id="formulario">
+    <h2>Contato</h2>
+
+    <form>
+        <fieldset>
+            <legend>Envie sua mensagem</legend>
+
+            <label>Nome:</label>
+            <input type="text" name="nome">
+
+            <label>Email:</label>
+            <input type="email" name="email">
+
+            <label>Mensagem:</label>
+            <textarea name="mensagem"></textarea>
+
+            <input type="submit" value="Enviar">
+        </fieldset>
+    </form>
+</section>
+
+</main>
+
+<footer>
+    <p>© 2026 Portal Alternativo da Computação</p>
+</footer>
+
+</div>
+
+</body>
+</html>
